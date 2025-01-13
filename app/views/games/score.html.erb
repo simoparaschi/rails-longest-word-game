@@ -1,9 +1,9 @@
 <h1>Result</h1>
 
 <% if @is_in_array == false %>
-  <p><%= @word.join("") %> can't be built out of <%= @letters.join(",") %></p>
+  <p><strong><%= @word.join("") %></strong> can't be built out of <%= @letters.join(",") %></p>
 <% elsif @is_english_word == false %>
-  <p> <%= @word.join("")  %> is not en English word</p>
+  <p><strong><%= @word.join("") %></strong> is not en English word</p>
 <% else %>
 <p>Congrats!</p>
 <% end %>
