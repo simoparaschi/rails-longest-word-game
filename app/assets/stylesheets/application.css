@@ -14,7 +14,11 @@
  *= require_self
  */
 
-p {
+body {
+font-family: Roboto, sans-serif;
+}
+
+.flex p {
 text-align: center;
 width: 60px;
 line-height: 60px;
